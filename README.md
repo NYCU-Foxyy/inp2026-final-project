@@ -1,6 +1,11 @@
 # inp2026-final-project
 Introduction to Network Programming 2026 Final Project
 
+## Group 7 Members
+- [@NYCU-Foxyy](https://github.com/NYCU-Foxyy)
+- [@Kate816](https://github.com/Kate816)
+- [@lyhung9537](https://github.com/lyhung9537)
+
 ## Installation Steps
 1. `cmake -B build`
 2. `cmake --build build`
