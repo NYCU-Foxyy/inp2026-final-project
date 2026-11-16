@@ -20,4 +20,4 @@ The compiled programs (`client`, `server`) will be in `bin/`.
 - Unit test CMake scripts will be added later.
 
 ## Project Structure
-[<img src="under_construction.jpg">](https://h7.alamy.com/comp/2B77KHJ/3d-under-construction-concept-2B77KHJ.jpg)
+(Under Construction)
