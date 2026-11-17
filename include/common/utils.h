@@ -6,10 +6,13 @@
  * @brief A utility struct for representing coordinates.
  *
  * This struct can be used whether on game field or screen.
+ *
+ * @tparam T The type of the coordinate.
  */
+template<typename T>
 struct Coord {
-	int r; /**< The row of the coordinate. */
-	int c; /**< The column of the coordinate. */
+	T r; /**< The row of the coordinate. */
+	T c; /**< The column of the coordinate. */
 
 	/**
 	 * @brief The constructor of \link Coord \endlink.
@@ -17,7 +20,7 @@ struct Coord {
 	 * @param r The row of the coordinate.
 	 * @param c The column of the coordinate.
 	 */
-	Coord(int r, int c);
+	Coord(T r, T c);
 };
 
 #endif // UTILS_H
