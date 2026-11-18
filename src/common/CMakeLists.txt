@@ -1,5 +1,5 @@
 set(SOURCE_FILES
-	game.cpp
+	tick.cpp
 	network.cpp
 	utils.cpp
 )

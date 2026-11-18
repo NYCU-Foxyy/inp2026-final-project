@@ -1,4 +1,4 @@
-#include "common/game.h"
+#include "common/tick.h"
 
 namespace Game {
 	namespace Tick {
