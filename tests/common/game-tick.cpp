@@ -2,7 +2,6 @@
 #include <chrono>
 #include <thread>
 #include <mutex>
-#include <atomic>
 #include <cstdlib>
 
 using namespace std::chrono_literals;
