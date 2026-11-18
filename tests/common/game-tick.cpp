@@ -2,7 +2,6 @@
 #include <chrono>
 #include <thread>
 #include <mutex>
-#include <cstdlib>
 
 using namespace std::chrono_literals;
 
@@ -21,13 +20,12 @@ int game_tick(int argc, char* argv[]) {
 
 	Game::Tick::setCallback(update);
 	Game::Tick::start();
-	std::this_thread::sleep_for(5000ms);
+	std::this_thread::sleep_for(1000ms);
+	if (counter != Game::Tick::rate + 1)
+		return 1;
 
 	Game::Tick::stop();
-
-	if (std::abs(counter - (int)(5 * Game::Tick::rate + 1)) >= 2)
-		return 1;
-	if (Game::Tick::getTick() != counter)
+	if (Game::Tick::getTick() != Game::Tick::rate + 1)
 		return 1;
 	if (Game::Tick::ticking)
 		return 1;
