@@ -36,7 +36,7 @@ namespace Game {
 		 */
 		using tick_t = int32_t;
 
-		const uint32_t rate = 60;
+		const uint32_t rate = 64;
 
 		/**
 		 * @namespace <anonymous>
