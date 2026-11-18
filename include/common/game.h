@@ -1,5 +1,5 @@
 /** @file game.h
- *  @brief Class prototypes for various game components.
+ *  @brief Prototypes for various game components.
  *
  *	This file contains the Game namespace, along with the
  *	prototypes of different game objects: TickManager,
@@ -8,63 +8,19 @@
  *	@author Foxyy
  */
 
+#ifndef GAME_H
+#define GAME_H
+
 #include <cstdint>
 #include "common/utils.h"
 #include "common/actions.h"
-
-#ifndef GAME_H
-#define GAME_H
+#include "common/tick.h"
 
 /**
  * @namespace Game
  * @brief The namespace that wraps all the prototypes of different game objects.
  */
 namespace Game {
-
-	/**
-	 * @typedef tick_t int32_t
-	 */
-	using tick_t = int32_t;
-
-	/**
-	 * @namespace Tick
-	 * @brief The namespace containing tick operations.
-	 */
-	namespace Tick {
-		/**
-		 * @typedef tickt int32_t;
-		 */
-		using tick_t = int32_t;
-
-		const uint32_t rate = 60;
-
-		/**
-		 * @namespace <anonymous>
-		 * @brief Local tick variable
-		 */
-		namespace {
-			tick_t _tick; /**< Game tick. */
-		}
-
-		/**
-		 * @brief Returns current game tick.
-		 * 
-		 * @return Current \link tick \endlink.
-		 */ 
-		tick_t getTick(void);
-		
-		/**
-		 * @brief Sets @var tick to @p newTick.
-		 *
-		 * @param newTick The new game tick value to set @var tick to.
-		 */
-		void setTick(tick_t newTick);
-
-		/**
-		 * @brief Ticks the game by 1.
-		 */
-		void tick(void);
-	}
 
 	/**
 	 * @struct Field

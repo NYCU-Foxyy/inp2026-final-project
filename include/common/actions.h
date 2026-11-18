@@ -1,7 +1,8 @@
-#include "common/game.h"
-
 #ifndef ACTIONS_H
 #define ACTIONS_H
+
+#include "common/game.h"
+#include <cstddef>
 
 /**
  * @struct Action
@@ -11,8 +12,8 @@
  * at tick \link tick \endlink
  */
 struct Action {
-	const size_t MAX_ARGS = 8; /**< Max argument count. */
-	const size_t MAX_ARGLEN = 16; /**< Max argument length. */
+	static const size_t MAX_ARGS = 8; /**< Max argument count. */
+	static const size_t MAX_ARGLEN = 16; /**< Max argument length. */
 
 	/**
 	 * @enum Action::Type
