@@ -37,3 +37,10 @@ An example test (`game-tick`) is available for view in `tests`.
 - **Important**: do not use LLMs or any AI-generation tools to 'help' you write issues.
 - The title should concisely and accurately represent the issue.
 - Make sure to assign the priority field when creating issues, in order to prevent being occupied for prolonged periods of time on a single less-important task.
+
+# AI assistance on development
+AI assistance is not entirely prohibited, it is understable that working on a project can feel difficult or seem impossible at glance. However when utilizing such code generation tools, please keep the maintainability at an acceptable level for other co-developers. That means:
+- Your code should be well-documented.
+- You need to have a good understanding of your own code. As debugging will require multiple times the effort when the internal workings are unbeknownst to you. And you need to be able to provide a good explanation when inquired about your modules.
+
+Lastly, you might miss out on the fun if you let your agent design everything!
