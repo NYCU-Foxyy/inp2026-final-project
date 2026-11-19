@@ -33,7 +33,7 @@ An example test (`game-tick`) is available for view in `tests`.
 (Under Construction)
 
 # Issue Writing
-- TODOs: `TODO [<priority>]: <title>`
-    - `<priority>` from lowest to highest: `very low`, `low`, `medium`, `high`, `very high`.
-    - `<title>`: a concise description of the TODO task.
-    - Note: sub-issues requires no `TODO [<priority>]` header, if it needs one, then it probably should not be a sub-issue.
+- **Important**: create an issue whenever something pops up in your mind, so that you could spend less effort keeping track of all the tasks you have to do, plus breaking tasks down can help reduce the psychological load as completing a module can seem overwhelming.
+- **Important**: do not use LLMs or any AI-generation tools to 'help' you write issues.
+- The title should concisely and accurately represent the issue.
+- Make sure to assign the priority field when creating issues, in order to prevent being occupied for prolonged periods of time on a single less-important task.
