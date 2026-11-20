@@ -69,3 +69,6 @@ Testing/
 
 # compiled target program files
 bin/
+
+# docs
+docs/

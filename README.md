@@ -8,6 +8,22 @@ Introduction to Network Programming 2026 Final Project
 - [@Kate816](https://github.com/Kate816)
 - [@lyhung9537](https://github.com/lyhung9537)
 
+# Documentation Compilation Steps
+1. Follow [Doxygen installation guide](https://www.doxygen.nl/manual/install.html) and install Doxygen.
+2. `cd` to project's root directory.
+3. Run `doxygen Doxyfile`.
+
+To view html docs, simply open `docs/html/index.html` in your browser.
+
+To view latex docs:
+1. install pdflatex:
+    - [Ubuntu installation guide](https://kkpradeeban.blogspot.com/2014/04/installing-latexpdflatex-on-ubuntu.html)
+    - Windows: [TeX Live](http://www.tug.org/texlive), [MikTeX](http://www.miktex.org/), [W32Tex](http://w32tex.org/). **Beware**: you might need to tweak some compilation steps or `docs/latex/Makefile` in order for the Windows options to work.
+2. `cd docs/latex && make`.
+3. Open `docs/latex/refman.pdf` with your favorite pdf viewer.
+
+Reference: [Stack Overflow - Pdflatex for windows](https://stackoverflow.com/a/2915019)
+
 # Installation Steps
 1. `cmake -B build`
 2. `cmake --build build`
