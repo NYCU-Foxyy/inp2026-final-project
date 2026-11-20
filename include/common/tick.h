@@ -15,7 +15,7 @@
 namespace Game {
 
 	/**
-	 * @namespace Tick
+	 * @namespace Game::Tick
 	 * @brief The namespace containing tick operations.
 	 *
 	 * This presents the interface of the game tick manager, on every tick update and
