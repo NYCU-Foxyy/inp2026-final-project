@@ -1,7 +1,8 @@
 # inp2026-final-project
 Introduction to Network Programming 2026 Final Project
 
-[Sketch Report Slides](https://canva.link/xulhx3u8qn2xseh)
+[Report Slides - 1](https://canva.link/xulhx3u8qn2xseh)
+[Report Slides - 2](https://canva.link/askdd7p6lwjs5wp)
 
 # Group 7 Members
 - [@NYCU-Foxyy](https://github.com/NYCU-Foxyy)
