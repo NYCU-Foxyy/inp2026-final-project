@@ -47,7 +47,7 @@ An example test (`game-tick`) is available for view in `tests`.
 - When adding a source file in `src/`, add its corresponding entry in the respective `CMakeLists.txt` in the source file's directory.
 
 # Project Structure
-(Under Construction)
+See Report Slides - 2.
 
 # Issue Writing
 - **Important**: create an issue whenever something pops up in your mind, so that you could spend less effort keeping track of all the tasks you have to do, plus breaking tasks down can help reduce the psychological load as completing a module can seem overwhelming.
